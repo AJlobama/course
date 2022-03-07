@@ -1,0 +1,121 @@
+.catalog {
+  display: flex;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 3px;
+  align-items: center;
+  justify-content: flex-start;
+
+  &__left-bloc {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-right: 114px;
+
+    .label {
+      display: flex;
+      align-items: center;
+      min-height: 107px;
+      min-width: 166px;
+      object-fit: scale-down;
+    }
+
+    .catalog__nav {
+      display: flex;
+      align-items: center;
+      color: rgb(101, 101, 101);
+      text-transform: uppercase;
+      line-height: 1.2;
+
+      ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0 0 0 60px;
+        width: 380px;
+
+        a {
+          text-decoration: none;
+          font-size: 14px;
+          font-weight: bold;
+          font-family: "Open Sans", sans-serif;
+
+          a:visited {
+            color: rgb(101, 101, 101);
+          }
+
+          &__catalog-item {
+            margin-right: 25px;
+            position: relative;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+  }
+
+  .catalog-right-bloc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .catalog-input-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+  }
+
+  .catalog-input {
+    width: 174px;
+    height: 28px;
+  }
+
+  .search-icon {
+    display: flex;
+    position: absolute;
+    color: #656565;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+    padding-right: 3px;
+  }
+
+  .cart-box {
+    display: flex;
+    margin: 0 14px;
+  }
+
+  .cart_icon-left {
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    margin-right: 4px;
+    border-radius: 50%;
+    background-color: #7db122;
+    color: #fff;
+  }
+
+  .cart_icon-right {
+    display: flex;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    border-radius: 50%;
+    background-color: #7db122;
+    color: #fff;
+  }
+
+  .product-amount {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: rgb(101, 101, 101);
+    text-transform: uppercase;
+    line-height: 1.2;
+  }
+}

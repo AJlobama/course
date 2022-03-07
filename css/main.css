@@ -1,0 +1,98 @@
+.container{
+	margin: 0 auto;
+	max-width: 1024px;
+	padding: 0 3px;
+}
+
+.section {
+	width: 100%;
+	height: 800px;
+}
+
+.main-conteiner {
+	position: relative;
+}
+
+.main__image-box {
+	/* content: ""; */
+	/* position: absolute; */
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%; 
+	height: 477px;
+	margin-bottom: 48px;
+	background: url(./../img/glasses.png) no-repeat;
+	background-position: center;
+	background-size: cover;
+	background-color:black;
+}
+
+.banner__wrapper {
+	display: flex;
+	margin: 0 auto;
+    padding: 0 3px;
+	
+}
+
+.banner__text {
+	display: flex;
+	align-items: center;
+	
+}
+
+.arrow {
+	display: flex;
+	align-items: center;
+    justify-content: center;
+	width: 67px;
+	height: 67px;
+	border-radius: 50%;
+	background-color: white;
+
+}
+
+.icon__arrow svg {
+	display: flex;
+    height: 30px;
+	fill: #cdcdcd;
+}
+
+.banner__content {
+	display: flex;
+	flex-direction: column;
+	margin-left: 48px;
+	margin-right: 647px;
+}
+
+.banner__text-one {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	margin-bottom: 3px;	
+	padding: 0 15px;
+	font-size: 30px;
+   	background-color: rgba(0, 0, 0, 0.452);
+}
+
+.text-one__span {
+	font-weight: 300;
+	line-height: 1.5;
+	font-family: "Open Sans", sans-serif;
+	color: rgb(255, 255, 255);
+
+}
+
+.banner__text-two {
+	display: flex;
+	flex-direction: column;
+	width: fit-content;
+	padding: 0 15px;
+  	font-size: 30px;
+  	font-family: "Open Sans", sans-serif;
+  	line-height: 1.5;
+  	color: rgb(255, 255, 255);
+  	background-color: rgba(0, 0, 0, 0.452);
+}
+

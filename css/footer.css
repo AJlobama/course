@@ -1,0 +1,360 @@
+.footer {
+    display: block;
+}
+
+.section__footer-feedback {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 106px;
+    padding: 16px 0 14px 0;
+    background: #4cb1ca;
+    
+}
+
+.footer__feedback {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 3px;
+    
+}
+
+.feedback__delivery {
+    display: flex;
+}
+
+.delivary__container {
+    display: flex;
+
+}
+
+.feedback__container {
+    display: flex;
+}
+
+.icon__action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    width: 65px;
+    border-radius: 50px;
+    margin-right: 21px;
+    background-color: white;
+}
+
+.icon__truck svg,
+ .icon__call svg {
+    width: 28px;
+    height: 28px;
+    fill: #39a0b9;
+}
+
+.text__delivery {
+    margin-right: 30px;
+}
+
+.text__delivery,
+.text__feedback {
+    display: flex;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 21px;
+    color: white;
+
+}
+
+.section__information {
+    display: flex;
+    height: 335px;
+    background: #39a0b9;
+}
+
+.information__container {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 3px;
+}
+
+.information__wrapper {
+    display: grid;
+    margin-top: 49px;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 28px;
+}
+
+.facebook__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.title__card h2 {
+    margin-top: 0px;
+    margin-bottom: 26px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+.facebook__members {
+    margin-bottom: 5px;
+    line-height: 0px;
+    font-size: 13px;
+    line-height: 20px;
+    font-weight: 300;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.facebook__members p {
+    margin-bottom: 6px;
+    margin-top: 0;
+    
+}
+
+.button__like {
+    padding: 0;
+    border: none;
+    opacity: 1;
+    background: none;
+    cursor: pointer;
+}
+
+.button__like :hover {
+    transform: scale(1.1);
+    transition: background-color 0.1s, transform 0.5s;
+}
+
+
+.facebook__faces {
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 11px 9px;
+    padding: 7px 0;
+    border-top: 1px solid #4cb1ca;
+    border-bottom: 1px solid #4cb1ca;
+
+}
+
+.facebook__details p {
+    margin-top: 6px;
+    font-size: 13px;
+    font-weight: 100;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.twitter__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.twitter__title-card h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.twitter__contains{
+    display: flex;
+
+}
+
+.twitter__box-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 43px;
+    width: 43px;
+    margin-right: 14px;
+    border-radius: 50px;
+    background-color:  white;
+}
+
+.icon__twitter {
+    display: flex;
+    height: 26px;
+}
+
+.icon__twitter svg {
+    height: 26px;
+    width: 26px;
+    fill: #39a0b9;
+}
+
+
+.twitter__text p {
+    margin: 0 0 36px;
+    max-width: 165px;
+    font-size: 13px;
+    line-height: 19px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.twitter__text-wrap {
+     color:#80d0e4;
+}
+
+.information__card {
+    display: flex;
+    flex-direction: column;
+}
+
+.inform__title h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    color: white;
+}
+
+.inform__slider {
+    display: flex;
+
+}
+
+.inform__list {
+    list-style: none;
+    margin-top: 0;
+    
+}
+
+.inform__list-link {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+}
+
+.contacts__card h2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 200;
+    color: white;
+    
+}
+
+.contacts__container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 16px;
+    border-bottom: 1px solid #4cb1ca;
+}
+
+.contact__link, a {
+    font-size: 13px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Open Sans";
+    text-decoration: none;
+    color: white;
+}
+
+.links__box {
+    display: flex;
+    align-items: center;
+    margin-top: 18px;
+
+}
+
+.link__box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    height: 36px;
+    width: 36px;
+    border-radius: 50px;
+    background-color: white;
+}
+
+.icon__link svg {
+    width: 20px;
+    height: 20px;
+    fill: #39a0b9;
+}
+
+.other__inform {
+    display: flex;
+    align-items: center;
+    height: 61px;
+    background: #0b4b5a;
+}
+
+.inform__wrapper {
+    margin: 0 auto;
+    max-width: 1024px;
+    padding: 0 3px;
+
+}
+
+.other__inform-contain {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contain__trademark {
+    margin-right: 230px;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color: #8adcf0;
+}
+
+.contain__about ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+
+}
+
+.nav__about a {
+    display: flex;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    color: #8adcf0;
+}
+
+.nav__about {
+    margin-right: 31px;
+    position: relative;
+    
+}
+
+.nav__about::after {
+    content: '';
+    width: 1px;
+    height: 11px;
+    top: 50%;
+    right: calc(-30px / 2);
+    transform: translateY(-50%);
+    position: absolute;
+    background: #39a0b9;
+
+}
+
+.nav__about::before {
+    content: '';
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: #39a0b9;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity, width 0.4s ease; 
+
+}

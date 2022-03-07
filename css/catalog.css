@@ -1,0 +1,134 @@
+.catalog {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 3px;
+}
+
+.catalog__left-bloc {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 114px;
+}
+
+.catalog__label {
+  display: flex;
+  align-items: center;
+  min-height: 107px;
+  min-width: 166px;
+  object-fit: scale-down;
+}
+
+.catalog__right-bloc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.catalog__input-container {
+  display: flex;
+  align-content: center;
+  position: relative;
+}
+
+.catalog-input {
+  width: 174px;
+  height: 28px;
+}
+
+.input-icon {
+  position: absolute;
+  right: 3px;
+}
+
+.nav__catalog {
+  display: flex;
+  align-items: center;
+  color: rgb(101, 101, 101);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.nav__catalog a:visited {
+  color: rgb(101, 101, 101);
+}
+
+.catalog__nav {
+  display: flex;
+  align-items: center;
+  color: rgb(101, 101, 101);
+  text-transform: uppercase;
+  line-height: 1.2;
+}
+
+.catalog__nav a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(101, 101, 101);
+}
+
+.catalog__nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 0 0 0 60px;
+  width: 380px;
+}
+
+.search-icon {
+  display: flex;
+  position: absolute;
+  color: #656565;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  padding-right: 3px;
+}
+
+.catalog__cart-box {
+  display: flex;
+  margin: 0 14px;
+}
+
+.cart__icon-left {
+  display: flex;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  margin-right: 4px;
+  border-radius: 50%;
+  background-color: #7db122;
+  color: #fff;
+}
+
+.cart__icon-right {
+  display: flex;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #7db122;
+  color: #fff;
+}
+
+.icon-tag svg {
+  display: flex;
+  color: white;
+}
+
+.product-amount {
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  color: rgb(101, 101, 101);
+  text-transform: uppercase;
+  line-height: 1.2;
+}

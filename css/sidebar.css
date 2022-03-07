@@ -1,0 +1,106 @@
+.aside__slider {
+    position:absolute;
+    top: 0;
+    left: 865px;
+    width: 234px;
+    
+}
+
+.aside__card {
+    padding-top: 0px;
+    border-top: 4px solid #4cb1ca;
+    box-shadow: 0 0 7px rgba(59, 57, 57, 0.5);
+}
+
+.card__slider-img {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.slider_button-box {
+    position: absolute;
+    bottom: 16px;   
+}
+
+.slider__button {
+    width: 132px;
+    height: 44px;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    background-color: #4cb1ca;
+    color: white;
+    cursor: pointer;
+}
+
+.slider_button-box :hover {
+    transition: background-color 0.2s, transform 0.8s;
+}
+
+.slider_button-box :active {
+   background-color: #95b9c2;
+}
+
+.img__scroll-bar {
+    height: 40px;
+}
+
+.sign__up-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 25px;
+    margin-top: 30px;
+    height: 281px;
+    border-top: 4px solid #4cb1ca;
+    box-shadow: 0 0 7px rgba(59, 57, 57, 0.5);
+}
+
+.sign__up-text {
+    padding: 26px 0 15px;
+    
+}
+
+.sign__up-text h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #635f57;
+}
+
+.sign__up-text p {
+    text-align: center;
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: dimgray;
+}
+
+.line {
+    width: 86px;
+    border: solid 1px;
+    color: #ededed;
+}
+
+.entry_button :hover {
+    margin-top: 18px;
+    transform: scale(1.1);
+    transition: background-color 0.2s, transform 0.8s;
+}
+
+.entry_button :active {
+    background-color: #787977;
+}
+
+.button_subscribe {
+    display: inline-block;
+    margin-top: 18px;
+    height: 44px;
+    width: 112px; 
+    cursor: pointer;
+    border: none;
+    font-family: "Open Sans", sans-serif;
+    background-color: #7eb123;
+    color: white;
+}
